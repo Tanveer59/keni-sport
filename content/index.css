@@ -1,0 +1,559 @@
+body{
+    margin: auto;
+
+}
+
+#header-section {
+    background-image: url(background.png);
+    background-color: #3E9D26;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    height: 800px;
+}
+
+
+/* id's of sections */
+#body-section-1{
+    padding: 80px 140px;
+}
+
+#body-section-2{
+    margin: 80px 140px;
+}
+
+
+#body-section-3{
+    padding: 80px 140px;
+}
+
+#body-section-4{
+    padding: 80px 140px;
+    background-image: url('sec-4.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 245px;
+    
+}
+
+#landing-page{
+    position: relative;
+    margin: 0 140px 0 140px;
+}
+
+/* id's of sections */
+
+.top-nav{
+    position: sticky;
+    align-items: center;
+}
+
+.top-nav nav{
+    background-color: #449596;
+    padding: 0.1em 1em 1em 0;
+}
+
+.top-nav nav p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight:400;
+
+}
+
+.top-nav nav a{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    top: 30px;
+    left: 860px;
+    position: absolute; 
+ } 
+
+.bottom-nav{
+    position: sticky;
+    padding-top: 1%;
+}
+
+.bottom-nav nav{
+     padding: 1em 1.7em 1em 180px;     
+} 
+
+.bottom-nav nav a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight:600;
+    padding: 32px 40px 32px 0; 
+    margin-top: 1.5em; 
+} 
+
+.bottom-nav nav a .nav-icon{
+    color: white;
+    padding-right: 25px;
+    float: right;
+}
+
+.bottom-nav nav a .nav-icon-shop{
+    color: white;
+    padding-right: 100px;
+    float: right;
+}
+
+.bottom-nav nav a .Logo{
+    padding-right: 200px;
+    width: 53px;
+    height: 38px;
+    left: 140px;
+    top: 33px;
+    position: absolute;
+}
+
+.logo-text{
+    text-align: left;
+    font-family: 'roboto';
+    text-transform: uppercase;
+    width: 86px;
+    height: 36px;
+    top: 20px;
+    left: 200px;
+    position: absolute;
+}
+
+.kani{
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.mid-text{
+    width: 663px;
+    height: 122px;
+    margin-top: 157px;
+}
+
+.hero-iner h1{
+    font-family: 'roboto';
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.hero-iner h1 span{
+    font-family: 'roboto';
+    font-size: 48px;
+    font-weight: bold;
+    color: #3E9D26;
+}
+
+
+.mid-text p{
+    font-family: 'roboto';
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.mid-text .bottom-p{
+    font-family: 'roboto';
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    text-align: left;
+    display: inline;
+}
+
+.errow{
+    width: 24px;
+    height: 24px;
+    margin: 0px 20px 0 10px;
+    padding: 4.5px 3px;
+    top: 11px;
+    left: 10px;
+    position: relative;
+
+}
+
+.btn-shop {
+    font-family: 'roboto';
+    font-weight: 200;
+    border: none;
+    color: white;
+    width: 124px;
+    padding: 10px 30px;
+    height: 36px;
+    margin: 80px 0 0 42px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #3E9D26;
+    cursor: pointer;
+  }
+
+
+.sec-2-p1{
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 14px;
+    width: 276.5px;
+    height: 340px;
+    color: rgb(0, 0, 0);
+}
+
+.p-1{
+    font-family: 'roboto';
+    margin: 0px;
+    font: bold;
+    padding: auto;
+    font-size: 24px;
+    text-align: left;
+    width: 276px;
+}
+
+.p-2{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.paragraph-text span{
+    font-weight: bold;
+}
+
+.atlete{
+    margin: 0 30px 0 30px;
+}
+
+
+
+.container-no-1{
+    width:100%;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.container-no-3{
+    width:100%;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.container-no-1 div{
+    float:left;
+}
+
+.container-no-3 div{
+    float:left;
+}
+
+.parent-div{
+    width: 100%;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.parent-parent-div{
+    width: 276px;
+}
+
+.parent-div-1{
+    width: 100%;
+    display:inline-block;
+    overflow:auto;
+}
+
+.parent-div div{
+    float: left;
+}
+
+.parent-div-1 div{
+    float: left;
+}
+
+.inner-div-1{
+    margin: 28px 0 28px 0;
+    
+}
+
+.inner-div-1 div{
+    float: left;
+}
+
+.inner-div-1-1{
+    margin: 0;
+}
+
+.inner-div-1-2{
+    margin-left: 20px;
+    width: 178px;
+}
+
+.inner-div{
+    /* font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600; */
+    margin: 14px 0 0px 20px;
+    width: 176px;
+}
+
+.inner-div-2{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.paragraph-text{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* this for text paragraph with icons */
+
+.see-product{
+    font-family: 'roboto';
+    font-weight: 600;
+    text-decoration: none;
+    color: #3E9D26;
+    font-size: 14px;
+    margin-top: -8px;
+    position: absolute;
+}
+
+
+.see-product-2{
+    font-family: 'roboto';
+    font-weight: 600;
+    text-decoration: none;
+    color: #3E9D26;
+    font-size: 14px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.see-product-3{
+    font-family: 'roboto';
+    font-weight: 600;
+    text-decoration: none;
+    color: #3E9D26;
+    font-size: 14px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+
+.learnMore a{
+    font-family: 'roboto';
+    font-weight: 600;
+    text-decoration: none;
+    color: #3E9D26;
+    font-size: 14px;
+    margin-top: 48px;
+    position: absolute;
+
+}
+
+/* end icons */
+
+.p-E-2{
+    margin: 0;
+}
+
+.Ellipse1{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 28px;
+}
+
+.mar{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.mar-midle{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.mar-kids{
+    margin: 0 30px 0 30px;
+    border-radius: 10px;
+}
+
+/* section no two start */
+
+.nextBack{
+    float: right;
+}
+
+.next{
+    margin-left: 1128px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.back{
+    margin-top: -50px;
+    margin-left: 1067px;
+    margin-bottom: 16.9px;
+    position: relative;
+}
+
+
+.parent-image{
+    font-family: 'roboto';
+    width: 360px;
+    height: 505px;
+    margin-top: 22.5px;
+}
+
+.parent-image-last{
+    font-family: 'roboto';
+    width: 360px;
+    height: 505px;
+    margin-top: 26px;
+}
+
+.parent-image-midle{
+    font-family: 'roboto';
+    width: 360px;
+    height: 505px;
+    margin: 0 40px 0 40px;
+}
+
+.parent-image-desk{
+    font-family: 'roboto';
+    width: 360px;
+    height: 505px;
+    border-radius: 10px;
+    margin: 26px 0px 0 40px;
+}
+
+.steelimage{
+    border-radius: 10px;
+}
+
+.header-text-sec-2{
+    font-family: 'roboto';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link-sec-2{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #3E9D26;
+    margin-top: 30px;
+
+}
+
+/* :end */
+
+/* section no 3 */
+
+.parent-image-2{
+    font-family: 'roboto';
+    width: 500px;
+    height: 560px;
+}
+
+.parent-image-midle-2{
+    font-family: 'roboto';
+    width: 500px;
+    height: 660px;
+    margin: 0 60px 0 60px;
+}
+
+.parent-image-last-2{
+    font-family: 'roboto';
+    width: 500px;
+    height: 660px;
+    margin-top: 26.9px;
+}
+
+/* :end */
+
+@media only screen and (max-width: 1366px){
+    #header-section{
+        background-position-x: -275px;
+    }
+    .mar-kids{
+        display: none;
+    }
+    .parent-image-desk{
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1920px) {
+
+    #header-section{
+        background-position-x: none;
+        height: 850px;
+    }
+    .mar-kids{
+        display: inline;
+        margin: 0 0 0 45px;
+    }
+
+    .atlete{
+        margin: 0 45px 0 45px;
+    }
+
+    .mar{
+        margin-right: 45px;
+    }
+    .mar-midle{
+        margin: 0 45px 0 30px;
+    }
+
+    .next{
+        margin-left: 1553px;
+        margin-top: -50px;
+
+    }
+    
+    .back{
+        margin-top: -50px;
+        margin-left: 1500px;
+
+    }
+    .parent-image{
+        margin-top: 0px;
+    }
+
+    .parent-image-last{
+        margin-top: 26px;
+    }
+    
+    .parent-image-midle{
+        margin: 0 50px 0 50px;
+    }
+    
+    .parent-image-desk{
+        margin: 26px 0px 0 50px;
+    }
+}
+
+
